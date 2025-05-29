@@ -30,7 +30,7 @@ export function Layout({ children }: LayoutProps) {
 
   // Track page interaction
   useEffect(() => {
-    addInteraction('visit', { page: 'home' });
+    addInteraction('click', { page: 'home' });
   }, []);
 
   return (
